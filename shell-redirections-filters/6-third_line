@@ -1,0 +1,5 @@
+#!/bin/bash
+#Prefer to display the third line of /etc/passwd instead though 
+#project requires to use "iacta" file
+
+head -n 3 /etc/passwd | tail -n 1
